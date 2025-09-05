@@ -17,13 +17,26 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 
 ### Core Features
 
-#### Dual Layout Support
-<img width="1798" height="876" alt="workflow-testing-English" src="https://github.com/user-attachments/assets/524a0c5a-0872-437d-8275-53555bedc36a" />
+#### Multi Layout Support
+- **Vertical tree diagram**:
+<img width="3027" height="954" alt="垂直树状图" src="https://github.com/user-attachments/assets/d39ad9bb-eaa5-4680-99b6-f522d720a7d9" />
+- **Circular diagram**:
+<img width="1993" height="1993" alt="环形图" src="https://github.com/user-attachments/assets/60e5ad90-969b-44d8-b904-a821f5c8a3d5" />
 
-- **Center Radial Layout**: Classic radial mind maps, perfect for knowledge systems and concept relationships
-  <img width="2685" height="2385" alt="mid-map-English-2" src="https://github.com/user-attachments/assets/3096ef92-92cd-443f-a288-8dc117271a1f" />
-- **Horizontal Layout**: Left-to-right hierarchical expansion, ideal for processes and timelines
-  <img width="3585" height="2085" alt="mind-map-English-1" src="https://github.com/user-attachments/assets/90c6920a-96da-4016-8fea-db113ff3dd30" />
+- **Central Brain Map**:
+<img width="1938" height="1641" alt="脑图中心结构" src="https://github.com/user-attachments/assets/6f04b407-885b-44b6-b616-46e6ee4dc61e" />
+
+- **Left and Right Brain Maps**:
+<img width="2583" height="1794" alt="脑图左右结构" src="https://github.com/user-attachments/assets/8654f25b-9ddf-4f4a-8051-f4429f23ed71" />
+
+- **Timeline Chart**:
+<img width="2820" height="1185" alt="时间线图" src="https://github.com/user-attachments/assets/fe371e41-50f9-4d9c-b5da-bcd0bcbb72fd" />
+
+- **Fishbone diagram**:
+<img width="3123" height="1152" alt="鱼骨图" src="https://github.com/user-attachments/assets/e5acc5e6-7df3-43e3-99f5-664c215849b2" />
+
+- **Organizational Chart**:
+<img width="3780" height="1215" alt="组织架构图" src="https://github.com/user-attachments/assets/a492fc03-b9ed-4b18-a30c-4289779c3bd7" />
 
 
 #### Perfect Chinese Support
@@ -45,7 +58,7 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 
 - **Author**: [@lukairui](https://github.com/lukairui)
 - **Email**: contact@lukairui.com
-- **Source Code**: https://github.com/lukairui/dify-plugins-xmind-generator.git
+- **Source Code**: [https://github.com/lukairui/dify-plugins-xmind-generator.git](https://github.com/lukairui/x_mind_generator.git)
 - **License**: MIT License
 - **Support**: Through Dify platform and GitHub Issues
 
@@ -65,17 +78,27 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 ### 核心特性
 
 #### 多布局支持 (7种专业布局)
-<img width="1926" height="854" alt="workflow-testing-Chinese" src="https://github.com/user-attachments/assets/384220df-2257-4c00-8a79-79fefafe99eb" />
 
-- **中心辐射布局**: 经典的放射状思维导图，适合知识体系和概念关系展示
-  <img width="2685" height="2385" alt="mid-map-Chinese-2" src="https://github.com/user-attachments/assets/9a5ee39b-4c8f-4ab4-91e5-a59ea8b0765e" />
-- **水平展开布局**: 从左到右的层次展开，适合流程和时间线展示
-  <img width="3585" height="2085" alt="mind-map-Chinese-1" src="https://github.com/user-attachments/assets/37f2b7a7-fbe7-412c-b54b-3b53bd62f4ff" />
-- **垂直树状布局**: 从上到下的层次结构，适合分类和层级展示
-- **鱼骨图布局**: 石川图样式，适合问题分析和原因追溯
-- **组织架构图**: 层级分明的组织结构，适合团队管理和职位展示
-- **时间线布局**: 水平时间轴，适合项目规划和历史事件
-- **圆形/环形布局**: 中心辐射式分类，适合产品特性和关系展示
+- **垂直树状图**: 
+<img width="3027" height="954" alt="垂直树状图" src="https://github.com/user-attachments/assets/d39ad9bb-eaa5-4680-99b6-f522d720a7d9" />
+- **环形图**: 
+<img width="1993" height="1993" alt="环形图" src="https://github.com/user-attachments/assets/60e5ad90-969b-44d8-b904-a821f5c8a3d5" />
+
+- **中心脑图**:
+<img width="1938" height="1641" alt="脑图中心结构" src="https://github.com/user-attachments/assets/6f04b407-885b-44b6-b616-46e6ee4dc61e" />
+
+- **左右脑图**:
+<img width="2583" height="1794" alt="脑图左右结构" src="https://github.com/user-attachments/assets/8654f25b-9ddf-4f4a-8051-f4429f23ed71" />
+
+- **时间线图**:
+<img width="2820" height="1185" alt="时间线图" src="https://github.com/user-attachments/assets/fe371e41-50f9-4d9c-b5da-bcd0bcbb72fd" />
+
+- **鱼骨图**:
+<img width="3123" height="1152" alt="鱼骨图" src="https://github.com/user-attachments/assets/e5acc5e6-7df3-43e3-99f5-664c215849b2" />
+
+- **组织架构图**:
+<img width="3780" height="1215" alt="组织架构图" src="https://github.com/user-attachments/assets/a492fc03-b9ed-4b18-a30c-4289779c3bd7" />
+
 
 
 #### 高级样式系统
@@ -89,7 +112,6 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 - 专为中文用户优化的显示效果
 
 #### 高级XMind特性
-- **多种输出格式**: PNG、SVG矢量图、PDF文档
 - **专业样式系统**: 8种预设主题 + 完全自定义
 - **智能布局算法**: 适应不同内容类型的最佳布局
 - **企业级功能**: 支持复杂组织架构和业务流程
@@ -106,10 +128,8 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 
 - **作者**: [@lukairui](https://github.com/lukairui)
 - **邮箱**: contact@lukairui.com
-- **项目代码来源**: https://github.com/lukairui/dify-plugins-xmind-generator.git
+- **项目代码来源**: [https://github.com/lukairui/dify-plugins-xmind-generator.git](https://github.com/lukairui/x_mind_generator.git)
 - **许可证**: MIT License
 - **支持**: 通过Dify平台和GitHub Issues
 
 ---
-
-**Ready to create beautiful mind maps? / 准备好创建精美的思维导图了吗？** 
