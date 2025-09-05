@@ -1,0 +1,59 @@
+identity:
+  name: mind_map_vertical
+  author: lukairui
+  label:
+    en_US: Vertical Tree Mind Map
+    zh_Hans: 垂直树状脑图
+description:
+  human:
+    en_US: Generate vertical tree layout mind maps from markdown text with customizable styles
+    zh_Hans: 从Markdown文本生成垂直树状布局的脑图，支持样式自定义
+  llm: A powerful tool that converts Markdown text into vertical tree layout mind maps with customizable styles
+parameters:
+  - name: markdown_text
+    type: string
+    required: true
+    label:
+      en_US: Markdown Text
+      zh_Hans: Markdown文本
+    human_description:
+      en_US: The markdown text to convert into a vertical tree mind map
+      zh_Hans: 要转换为垂直树状脑图的Markdown文本
+    llm_description: Markdown formatted text that will be parsed and converted into a vertical tree layout mind map
+    form: llm
+  - name: style_preset
+    type: select
+    required: false
+    default: default
+    label:
+      en_US: Style Preset
+      zh_Hans: 样式预设
+    human_description:
+      en_US: Choose a predefined style for the mind map
+      zh_Hans: 选择思维导图的预定义样式
+    llm_description: Select from predefined styles that control colors, fonts, and visual appearance
+    form: form
+    options:
+      - value: default
+        label:
+          en_US: Default
+          zh_Hans: 默认样式
+      - value: business
+        label:
+          en_US: Business
+          zh_Hans: 商务风格
+      - value: creative
+        label:
+          en_US: Creative
+          zh_Hans: 创意风格
+      - value: academic
+        label:
+          en_US: Academic
+          zh_Hans: 学术风格
+      - value: minimal
+        label:
+          en_US: Minimal
+          zh_Hans: 简约风格
+extra:
+  python:
+    source: tools/mind_map_vertical.py

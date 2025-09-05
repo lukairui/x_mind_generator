@@ -1,0 +1,59 @@
+identity:
+  name: mind_map_circular
+  author: lukairui
+  label:
+    en_US: Circular/Ring Layout
+    zh_Hans: 圆形/环形布局
+description:
+  human:
+    en_US: Generate circular and ring layout mind maps from markdown text, perfect for categorized and cyclical data
+    zh_Hans: 从Markdown文本生成圆形和环形布局的脑图，适合分类数据和周期性信息
+  llm: A powerful tool that converts Markdown text into circular and ring layout mind maps for categorized and cyclical data
+parameters:
+  - name: markdown_text
+    type: string
+    required: true
+    label:
+      en_US: Markdown Text
+      zh_Hans: Markdown文本
+    human_description:
+      en_US: Markdown text with categorized structure (# Center, ## Categories, - Items)
+      zh_Hans: 具有分类结构的Markdown文本（# 中心，## 分类，- 项目）
+    llm_description: Markdown text structured for circular layout - first header as center topic, second level headers as main categories arranged in circle, list items as category details
+    form: llm
+  - name: style_preset
+    type: select
+    required: false
+    default: creative
+    label:
+      en_US: Style Preset
+      zh_Hans: 样式预设
+    human_description:
+      en_US: Choose a predefined style for the circular layout
+      zh_Hans: 选择圆形布局的预定义样式
+    llm_description: Select from predefined styles optimized for circular and ring layouts
+    form: form
+    options:
+      - value: creative
+        label:
+          en_US: Creative (Recommended)
+          zh_Hans: 创意风格（推荐）
+      - value: default
+        label:
+          en_US: Default
+          zh_Hans: 默认样式
+      - value: colorful
+        label:
+          en_US: Colorful
+          zh_Hans: 多彩风格
+      - value: business
+        label:
+          en_US: Business
+          zh_Hans: 商务风格
+      - value: minimal
+        label:
+          en_US: Minimal
+          zh_Hans: 简约风格
+extra:
+  python:
+    source: tools/mind_map_circular.py

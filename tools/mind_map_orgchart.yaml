@@ -1,0 +1,55 @@
+identity:
+  name: mind_map_orgchart
+  author: lukairui
+  label:
+    en_US: Organizational Chart
+    zh_Hans: 组织架构图
+description:
+  human:
+    en_US: Generate organizational charts and hierarchy diagrams from markdown text
+    zh_Hans: 从Markdown文本生成组织架构图和层级结构图
+  llm: A powerful tool that converts Markdown text into organizational charts and hierarchy diagrams
+parameters:
+  - name: markdown_text
+    type: string
+    required: true
+    label:
+      en_US: Markdown Text
+      zh_Hans: Markdown文本
+    human_description:
+      en_US: Markdown text representing organizational structure with headers and lists
+      zh_Hans: 表示组织结构的Markdown文本，使用标题和列表
+    llm_description: Markdown text structured for organizational charts - headers represent positions/roles, lists represent reporting relationships
+    form: llm
+  - name: style_preset
+    type: select
+    required: false
+    default: business
+    label:
+      en_US: Style Preset
+      zh_Hans: 样式预设
+    human_description:
+      en_US: Choose a predefined style for the organizational chart
+      zh_Hans: 选择组织架构图的预定义样式
+    llm_description: Select from predefined styles optimized for organizational charts
+    form: form
+    options:
+      - value: business
+        label:
+          en_US: Business (Recommended)
+          zh_Hans: 商务风格（推荐）
+      - value: default
+        label:
+          en_US: Default
+          zh_Hans: 默认样式
+      - value: academic
+        label:
+          en_US: Academic
+          zh_Hans: 学术风格
+      - value: minimal
+        label:
+          en_US: Minimal
+          zh_Hans: 简约风格
+extra:
+  python:
+    source: tools/mind_map_orgchart.py

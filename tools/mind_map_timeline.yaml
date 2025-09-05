@@ -1,0 +1,59 @@
+identity:
+  name: mind_map_timeline
+  author: lukairui
+  label:
+    en_US: Timeline Diagram
+    zh_Hans: 时间线图
+description:
+  human:
+    en_US: Generate timeline diagrams from markdown text, perfect for project planning and historical events
+    zh_Hans: 从Markdown文本生成时间线图，适合项目规划和历史事件展示
+  llm: A powerful tool that converts Markdown text into timeline diagrams for project planning and historical events
+parameters:
+  - name: markdown_text
+    type: string
+    required: true
+    label:
+      en_US: Markdown Text
+      zh_Hans: Markdown文本
+    human_description:
+      en_US: Markdown text with timeline structure (# Title, ## Time Event, - Details)
+      zh_Hans: 具有时间线结构的Markdown文本（# 标题，## 时间 事件，- 详情）
+    llm_description: Markdown text structured for timeline - first header as title, second level headers as time events with format "## 2024年1月 项目启动", list items as event details
+    form: llm
+  - name: style_preset
+    type: select
+    required: false
+    default: default
+    label:
+      en_US: Style Preset
+      zh_Hans: 样式预设
+    human_description:
+      en_US: Choose a predefined style for the timeline diagram
+      zh_Hans: 选择时间线图的预定义样式
+    llm_description: Select from predefined styles that control colors, fonts, and visual appearance of the timeline
+    form: form
+    options:
+      - value: default
+        label:
+          en_US: Default
+          zh_Hans: 默认样式
+      - value: business
+        label:
+          en_US: Business
+          zh_Hans: 商务风格
+      - value: creative
+        label:
+          en_US: Creative
+          zh_Hans: 创意风格
+      - value: academic
+        label:
+          en_US: Academic
+          zh_Hans: 学术风格
+      - value: minimal
+        label:
+          en_US: Minimal
+          zh_Hans: 简约风格
+extra:
+  python:
+    source: tools/mind_map_timeline.py

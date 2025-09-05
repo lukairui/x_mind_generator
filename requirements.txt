@@ -1,0 +1,14 @@
+﻿# Dify插件框架
+dify-plugin
+
+# 图像处理和绘制
+Pillow>=8.0.0
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# PDF生成和处理
+reportlab>=3.6.0
+
+# 系统工具 (标准库，不需要安装)
+# os, re, tempfile, time, math, shutil, typing
+# 注意：我们使用自定义的markdown解析器，不依赖markdown库

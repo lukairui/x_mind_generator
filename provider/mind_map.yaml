@@ -1,0 +1,21 @@
+identity:
+  author: "lukairui"
+  name: "x_mind_generator"
+  label:
+    en_US: "XMind Map Generator"
+    zh_Hans: "Xmind生成"
+  description:
+    en_US: "Support xmind generate. Support multiple xmind export layouts"
+    zh_Hans: "支持多种xmind导出布局选择"
+  icon: "icon.png"
+tools:
+  - tools/mind_map_center.yaml
+  - tools/mind_map_horizontal.yaml
+  - tools/mind_map_vertical.yaml
+  - tools/mind_map_fishbone.yaml
+  - tools/mind_map_orgchart.yaml
+  - tools/mind_map_timeline.yaml
+  - tools/mind_map_circular.yaml
+extra:
+  python:
+    source: provider/mind_map.py

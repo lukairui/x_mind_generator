@@ -1,0 +1,59 @@
+identity:
+  name: mind_map_fishbone
+  author: lukairui
+  label:
+    en_US: Fishbone Diagram
+    zh_Hans: 鱼骨图分析
+description:
+  human:
+    en_US: Generate fishbone (Ishikawa) diagrams for cause-and-effect analysis from markdown text
+    zh_Hans: 从Markdown文本生成鱼骨图（石川图），用于因果关系分析
+  llm: A powerful tool that converts Markdown text into fishbone (Ishikawa) diagrams for cause-and-effect analysis
+parameters:
+  - name: markdown_text
+    type: string
+    required: true
+    label:
+      en_US: Markdown Text
+      zh_Hans: Markdown文本
+    human_description:
+      en_US: Markdown text with problem analysis structure (# Problem, ## Categories, - Causes)
+      zh_Hans: 具有问题分析结构的Markdown文本（# 问题，## 分类，- 原因）
+    llm_description: Markdown text structured for fishbone analysis - first header as problem/effect, second level headers as cause categories, and list items as specific causes
+    form: llm
+  - name: style_preset
+    type: select
+    required: false
+    default: default
+    label:
+      en_US: Style Preset
+      zh_Hans: 样式预设
+    human_description:
+      en_US: Choose a predefined style for the fishbone diagram
+      zh_Hans: 选择鱼骨图的预定义样式
+    llm_description: Select from predefined styles that control colors, fonts, and visual appearance of the fishbone diagram
+    form: form
+    options:
+      - value: default
+        label:
+          en_US: Default
+          zh_Hans: 默认样式
+      - value: business
+        label:
+          en_US: Business
+          zh_Hans: 商务风格
+      - value: creative
+        label:
+          en_US: Creative
+          zh_Hans: 创意风格
+      - value: academic
+        label:
+          en_US: Academic
+          zh_Hans: 学术风格
+      - value: minimal
+        label:
+          en_US: Minimal
+          zh_Hans: 简约风格
+extra:
+  python:
+    source: tools/mind_map_fishbone.py

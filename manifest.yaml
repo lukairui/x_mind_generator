@@ -1,0 +1,26 @@
+﻿version: 0.1.0
+type: plugin
+author: lukairui
+name: x_mind_generator
+label:
+  en_US: XMind Generator
+  zh_Hans: Xmind生成器
+description:
+  en_US: Generate beautiful mind maps from Markdown text with multiple layouts (center, horizontal, vertical, fishbone, org chart) and customizable styles
+  zh_Hans: 将Markdown文本转换为精美的脑图，支持多种布局（中心、水平、垂直、鱼骨图、组织架构图）和样式自定义
+icon: icon.png
+resource:
+  memory: 104857600
+plugins:
+  tools:
+    - provider/mind_map.yaml
+meta:
+  version: 0.1.0
+  author: lukairui
+  arch:
+    - amd64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: "2025-09-04T00:00:00.0000000+08:00"
