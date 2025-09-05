@@ -39,6 +39,7 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 - **Organizational Chart**:
 <img width="3780" height="1215" alt="组织架构图" src="https://github.com/user-attachments/assets/a492fc03-b9ed-4b18-a30c-4289779c3bd7" />
 
+#### example question : List the 5 most famous novels in the world, with the first level title being the title of the 5 most famous novels, the second level title being the title of the novel, and the third level titles being the author's name, the male protagonist's name, and the female protagonist's name
 
 #### Perfect Chinese Support
 - Built-in 18.79MB Chinese font file ensures perfect rendering in server environments
@@ -102,6 +103,7 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 <img width="3780" height="1215" alt="组织架构图" src="https://github.com/user-attachments/assets/a492fc03-b9ed-4b18-a30c-4289779c3bd7" />
 
 
+#### 问题例子： 列出世界上最有名的5部小说，一级标题是世界上最有名的5部小说，二级标题是小说名称，三级标题分别是作者名、男主角名、女主角名
 
 #### 高级样式系统
 - **多种颜色方案**: 默认、商务、创意、学术、深色等风格
