@@ -20,6 +20,7 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 #### Multi Layout Support
 - **Vertical tree diagram**:
 <img width="3027" height="954" alt="垂直树状图" src="https://github.com/user-attachments/assets/d39ad9bb-eaa5-4680-99b6-f522d720a7d9" />
+
 - **Circular diagram**:
 <img width="1993" height="1993" alt="环形图" src="https://github.com/user-attachments/assets/60e5ad90-969b-44d8-b904-a821f5c8a3d5" />
 
@@ -81,7 +82,8 @@ A powerful XMind generation plugin that intelligently converts Markdown text int
 
 - **垂直树状图**: 
 <img width="3027" height="954" alt="垂直树状图" src="https://github.com/user-attachments/assets/d39ad9bb-eaa5-4680-99b6-f522d720a7d9" />
-- **环形图**: 
+
+-**环形图**: 
 <img width="1993" height="1993" alt="环形图" src="https://github.com/user-attachments/assets/60e5ad90-969b-44d8-b904-a821f5c8a3d5" />
 
 - **中心脑图**:
